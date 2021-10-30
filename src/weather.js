@@ -4,7 +4,7 @@ function Weather({Location,Condition,Current})
 {
     return(
         <div className="WeatherDisp">
-            <div>
+            <div className="LocationDiv">
                 <h1 id="LocName" className="h1tag">{Location['name']}</h1>
                 <h2>{Location.region},{Location.country} </h2>
                 <h1>Current Temp {Current.temp_c}<span> &#176;C </span></h1>

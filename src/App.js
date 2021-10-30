@@ -52,10 +52,7 @@ return (
        </div>
      </div>
      <div className="weatherDisp">
-  
-        
       <Weather Location={infoLocation} Current={infoCurrent} Condition={infocondition}/>
-       
      </div>
     </div>
   );

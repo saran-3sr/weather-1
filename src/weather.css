@@ -1,4 +1,25 @@
 .WeatherDisp
 {
-    opacity: 0.5;
+    margin-top: 5%;
+    margin-bottom: 5%;
+    height: 90%;
+    backdrop-filter: blur(10px);
+    justify-content: space-between;
+    text-align: center;
+}
+    
+.windAndVis
+{
+    color:midnightblue;
+    font-size: 24px;
+    width: 70%;
+    margin: auto;
+    display: flex;
+    justify-content: space-between;
+}
+.LocationDiv
+{
+    width: 50%;
+    margin: auto;
+    text-align: center;
 }
